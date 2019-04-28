@@ -1,3 +1,4 @@
+#run in idle 3
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import pyautogui as pag
