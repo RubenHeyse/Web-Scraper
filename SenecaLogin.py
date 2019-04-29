@@ -1,8 +1,5 @@
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-import pyautogui as pag
-import sys
-import time
+from webdriver_manager.chrome import ChromeDriverManage
 
 browser = webdriver.Chrome(ChromeDriverManager().install())
 browser.get('https://app.senecalearning.com/login')
